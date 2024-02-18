@@ -6,10 +6,10 @@ public class BodyMassIndex{
    Scanner in = new Scanner(System.in);
    double weight, height, bodyMassIndex;
 
-   System.out.println("Ingrese su peso:");
+   System.out.println("Ingrese su peso en kilogramos:");
    weight = in.nextDouble();
 
-   System.out.println("Ingrese su estatura:");
+   System.out.println("Ingrese su estatura en metros:");
    height = in.nextDouble();
 
    bodyMassIndex = bodyMassIndex(weight, height);
